@@ -10,6 +10,7 @@
 @import "./scroll.css";
 @import "./select.css";
 @import "./sidebar.css";
+@import "./toaster.css";
 @import "./responsive.css";
 @import "./week-calendar.css";
 
@@ -43,10 +44,15 @@ body {
 
   --duration-sm: 100ms;
   --duration-md: 200ms;
+  --duration-2xl: 3000ms;
 
   --color-blue-500: #3b82f6;
   --color-blue-600: #2563eb;
   
+  --color-red-600: #dc2626;
+
+  --color-green-600: #16a34a;
+
   --color-gray-100: #f3f4f6;
   --color-gray-300: #d1d5db;
   --color-gray-400: #9ca3af;
